@@ -10,6 +10,12 @@ body {background-color: rgb(87, 29, 46);
 position: relative;
 min-height: 100vh;}
 
+.foot {
+    position: absolute;
+    bottom: 0;
+}
+
+
 .logo {cursor: pointer; width: 50px;padding-left: 30px;
 }
 
@@ -86,7 +92,7 @@ hr {width:30%;
     position: absolute;
     border-radius: 50px;}
 
-#raton {padding-left: 660px; padding-top: 70px;width: 50px;}
+#raton {padding-left: 790px; padding-top: 80px;width: 50px;}
 
 h1 {padding-top: 10px;
     margin-left: 47%;

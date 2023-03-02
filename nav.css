@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {background-color: rgb(87, 29, 46);
+position: relative;
+min-height: 100vh;}
+
+.logo {cursor: pointer; width: 50px;padding-left: 30px;
+}
+
+p {color:rgba(253, 253, 253, 0.911) ;}
+
+table {background-color: #688d9950;
+    margin-left: 40%;margin-top:40px;
+    color: whitesmoke;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    font-size: 15px;
+}
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration:none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 3%;background-color: rgb(66, 46, 54);
+    box-shadow: 10px 0 10px black;
+}
+
+.links_navegacion {
+    list-style: none;
+}
+
+.links_navegacion li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links_navegacion li a {
+    transition: all 0.5s ease 0s;
+}
+
+.links_navegacion li a:hover {
+    color: purple;
+}
+
+.cat {cursor:grab;
+    width: 50px;}
+
+.input {background-color: lightcyan;
+    border-style:ridge ;
+    border-width: 2px;
+    border-color: rgba(10, 10, 5, 0.808);}
+.input:hover {background-color:rgba(110, 89, 146, 0.781); opacity:0,5;}
+
+hr {width:30%;
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;}
+
+#infobox {background-color: rgb(66, 46, 54);
+    font-size: 15px;
+    display: block;
+    border-style: solid;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.boton {cursor: pointer;
+    background-color: rgba(216, 191, 216, 0.699);
+    margin-top: 50px;
+    margin-left: 47%;
+    position: absolute;
+    border-radius: 50px;}
+
+#raton {padding-left: 660px; padding-top: 70px;width: 50px;}
+
+h1 {padding-top: 10px;
+    margin-left: 47%;
+    color: whitesmoke;}
+
+iframe {padding: 20px;}
+
+footer {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(41, 35, 35, 0.425);
+    height: 100px;
+    width: 100%;
+    box-shadow: 10px 0 10px black; 
+    margin-top: 10px;
+}
+
+.logofooter {cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1366px) {
+    hr {width:30%;
+        text-align:center;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #h1contact {font-size: 25px;
+        font-weight: lighter;
+        padding-top: 20px;
+        margin-left: 46.0%;
+        color: white}
+    
+    #h1aboutus {font-size: 25px;
+        font-weight: lighter;
+        padding-top: 20px;
+        margin-left: 45.5%;
+        color: white}
+
+    #h1chill {font-size: 25px;
+        font-weight: lighter;
+        padding-top: 20px;
+        margin-left: 47.5%;
+        color: white}
+    iframe {padding: 40px;
+    padding-top: 60px;
+    width: 500px;
+    height: 300px;
+}
+    .cat {cursor:grab;
+    width: 50px;}
+
+    table {background-color: #688d9950;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:40px;
+        color: whitesmoke;
+    }
+    .boton {cursor: pointer;
+        margin-top: 50px;
+        margin-left: 45.5%;
+        position: absolute;
+        border-radius: 50px;}
+
+    #raton {padding-left: 600px; padding-top: 80px;width: 50px;}
+    
+    #contactinfo {background-color: rgb(66, 46, 54);
+        display: block;
+        border-style: solid;
+        width:380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
